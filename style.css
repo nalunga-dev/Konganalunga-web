@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: white;
+  max-width: 1204px;
+  min-height: 100vh;
+  padding: 1rem;
+  margin: auto;
+}
+.first-section {
+  background-color: #94004f;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1rem;
+}
+.firsta {
+  font-size: 1.5rem;
+}
+.second-section {
+  /* background-color: blue; */
+  padding-top: 0.5rem;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 10px;
+  /* height: 50vh; */
+}
+.link {
+  background-color: white;
+  width: 100%;
+  height: 23vh;
+  display: flex;
+  align-items: center;
+  padding-left: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.3s ease-in-out;
+}
+.link:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: red;
+}
+.linka {
+  /* width: 38%; */
+  height: 60%;
+}
+.linka1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.linkb {
+  background-color: white;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.Standard {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.669);
+  transition: 0.5s ease-in-out;
+}
+.Standard:hover {
+  color: yellow;
+}
+.amount {
+  font-weight: bolder;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+}
+.amount1 {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.amount2 {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.669);
+  font-size: 0.9rem;
+}
+.amount3 {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.669);
+  font-size: 0.9rem;
+}
+.amount4 {
+  background-color: #ffd8d8;
+  color: #94004f;
+  border-radius: 0.5rem;
+}
+.amount5 {
+  font-size: 0.8rem;
+  color: #207f55;
+  font-weight: bolder;
+}
+.amount2a {
+  text-decoration: line-through;
+  color: #207f55;
+  font-weight: bolder;
+}
+.third-section {
+  background-color: #ffd8d8;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 0.8rem;
+  position: relative;
+  margin-top: 1.2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.alarm {
+  background-color: rgba(251, 146, 163, 0.704);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  position: absolute;
+  left: 80%;
+}
+.thirda {
+  font-size: 0.9rem;
+  color: #9a054d;
+  font-weight: bold;
+}
+.bx-alarm-exclamation {
+  color: red;
+}
+.alarma {
+  color: #9a054d;
+}
+.fourth-section {
+  /* background-color: #9a054d; */
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.5rem;
+}
+.foutha {
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.phone {
+  position: relative;
+}
+.phone1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.linkE {
+  /* background-color: white; */
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.konga {
+  background-color: #fcdbed;
+  /* padding: 0.4rem; */
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+.konga1 {
+  object-fit: cover;
+  width: 70%;
+}
+.bxs-star {
+  color: #fba100;
+}
+.star {
+  display: flex;
+}
+.sixth-section {
+  background-color: white;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+.sixtha {
+  height: 30vh;
+}
+@media (max-width: 415px) {
+  .sixtha {
+    height: 43vh;
+  }
+}
+.tv {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
